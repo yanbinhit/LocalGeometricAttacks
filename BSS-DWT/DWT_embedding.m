@@ -88,7 +88,7 @@ imgWmed = idwt2(cA1, cH1Hat, cV1Hat, cD1Hat, 'db1');
 if DEBUG == 1
     figure; imshow(uint8(imgWmed),[]); title('Watermarked image');
 end
-% 
+
 % % Save the watermarked image and messages
 % imgWmed = uint8(imgWmed);
 % fileOutTmp = imgFile;
