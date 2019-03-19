@@ -6,14 +6,13 @@ prevDir = pwd;
 cd(dir); 
 
 %imageFileIn = 'zhonglou512.bmp';
-% imageFileIn = 'yifulou512.bmp';
-imageFileIn = '1.jpg';
+imageFileIn = 'yifulou512.bmp';
 imageIn = imread(imageFileIn);
 figure; imshow(imageIn,[]);  title('original image');drawnow;
 
-%imageFileIn =  'L:\00-Projects\00-DesynAttack\code\Images\zhonglou512gray.bmp';
-%imageFileIn = 'L:\00-Projects\00-DesynAttack\code\Images\VerticalStripes.jpg';
-% imageFileIn = 'L:\00-Projects\00-DesynAttack\code\Images\yifulou512gray.bmp'
+%imageFileIn =  'zhonglou512gray.bmp';
+%imageFileIn = 'VerticalStripes.jpg';
+% imageFileIn = 'yifulou512gray.bmp'
 debug = 1;
 window = 9;
 level = 5;

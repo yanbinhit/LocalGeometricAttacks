@@ -9,7 +9,7 @@ cd(dir);
  
  DEBUG = 0;
  wmType = 'dct';  % 'dct' or 'dwt'
- attackType = 'lpcd';   % 'lpcd', 'clpcd', 'mrf', 'iterative', 
+ attackType = 'pyramid';   % 'lpcd', 'clpcd', 'mrf', 'iterative', 
                                 %'pyramid', 'pyramidMrfIn'
  nb = [50 100 150 200];
  
